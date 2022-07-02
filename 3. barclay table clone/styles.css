@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 100px;
+    border: 3px solid black;
+    font-size: 14px;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+table .pink{
+    background-color: pink;
+}
+
+table .gray{
+    background-color: gray;
+}
+
+table .red{
+    background-color: red;
+}
+
+table .yellow{
+    background-color: yellow;
+}
+
+table td, th{
+    padding: 2px 5px;
+}
+
+table td img{
+    width: 100%;
+}

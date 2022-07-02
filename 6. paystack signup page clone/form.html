@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paystack Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="paystack_icon.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.svg" alt="#">
+        </div>
+        <form>
+            <h1>CREATE YOUR ACCOUNT</h1>
+            <div class="form-group">
+                <label id="one" for="country">Country</label>
+                <a href="#" style="text-decoration: none;">Other countries</a>
+                <select class="form-control" id="country">
+                    <option value=""></option>
+                    <option value="Nigeria">Nigeria</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="business_name">Business Name</label>
+                <input class="form-control" type="text" id="business_name">
+            </div>
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" class="form-control" id="first_name">
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control" id="last_name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Adress</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="phone_number">Phone Number</label>
+                <input type="number" class="form-control twenty-three" id="phone_number" placeholder="+234"> <input type="number" class="form-control seventy-five" id="number1" placeholder="802 123 4567">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" id="password"> 
+            </div>
+            <div class="form-group biz">
+                <label style="margin-bottom: 20px;"> What type of business do you own?</label>
+                <div class="box">
+                    <div class="radio">
+                        <input name="biz_type" type="radio" id="starter" value="starter">
+                    </div>
+                    <label for="starter">Starter Business
+                        <br>
+                        <span>I'm testing my ideas with real customers, and preparing to register my company</span>
+                    </label>
+                </div>
+                <div class="box">
+                    <div class="radio">
+                        <input name="biz_type" type="radio" id="registered" value="registered">
+                    </div>
+                    <label for="registered">Registered Business
+                        <br>
+                        <span>My business has the approval, documentation, and licences required to operate legally</span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="who_are_you">Are you a software developer?</label>
+                <div class="box two">
+                    <div class="radio">
+                        <input name="who_are_you" type="radio" id="yes" value="yes">
+                    </div>
+                    <label for="yes">Yes, I am</label>
+                </div>
+                <div class="box two">
+                    <div class="radio">
+                        <input name="who_are_you" type="radio" id="no" value="no">
+                    </div>
+                    <label for="no">No, I'm not</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="box three">
+                    <div class="checkbox">
+                        <input name="agree" type="checkbox" id="agree" value="agree">
+                    </div>
+
+                    <label for="agree">I consent to the collection and processing of my personal data in line with data regulations as described in the <a href="#" style="text-decoration: none; float: none;">Paystack Privacy Policy</a> </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create My Account" name="submit" class="submit">
+            </div>
+            <div class="form-group">
+                <p style="text-align: center;">By clicking the "Create your account" button, you agree to Paystack's <a href="#" style="text-decoration: none; float: none;">terms of acceptable use.</a></p>
+            </div>
+            <div class="form-group"></div>
+        </form>
+        <p style="color: #fff;">Already have an account? <a href="#" style="color: #fff; text-decoration: none; float: none;">Login</a></p>
+    </div>
+</body>
+</html>
